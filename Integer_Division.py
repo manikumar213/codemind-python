@@ -1,2 +1,3 @@
 x=int(input())
-print(x//10)
+y=x//10
+print(y)
