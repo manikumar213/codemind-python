@@ -11,7 +11,4 @@ while x>0:
     r=x%10
     rev1=rev1*10+r
     x=x//10        
-if sn==rev1:
-    print('True')
-else:
-    print('False')
+print(sn==rev1)
