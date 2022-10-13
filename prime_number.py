@@ -1,9 +1,9 @@
-x=int(input())
-y=0
-for i in range(1,x+1):
-    if x%i==0:
-        y=y+1
-if y==2:
+h=int(input())
+f=0
+for i in range(1,h+1):
+    if h%i==0:
+        f+=1
+if f==2:
     print('prime')
 else:
     print('not a prime')
