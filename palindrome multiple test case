@@ -1,0 +1,13 @@
+t=int(input())#reading test cases (how many times)
+for i in range(t):# running the loop in for t timems
+    n=int(input())# getting number to check palindrome
+    rev=0
+    p=n
+    while n>0:
+        r=n%10
+        rev=rev*10+r
+        n=n//10
+    if p==rev:
+        print(f'{p} is a Palindrome')
+    else:
+        print(f'{p} is a Not a palindrome')
