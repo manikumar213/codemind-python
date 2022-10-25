@@ -1,0 +1,11 @@
+#square root logic to find out the fachtors of a given number
+%time
+n=int(input())
+fc=1
+for i in range(2,int(n**0.5)+1):
+    if n%i==0:
+        if i==n//i:
+            fc+=1
+        else:
+            fc+=2
+print(fc)
