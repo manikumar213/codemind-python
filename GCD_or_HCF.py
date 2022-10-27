@@ -1,7 +1,7 @@
-n,m=map(int,input().split())
-while n!=0  and m!=0:
-    if n>m:
-        n%=m
+a,b=map(int,input().split())
+while a!=b:
+    if a>b:
+        a-=b
     else:
-        m%=n
-print(n) if m==0 else print(m)
+        b-=a
+print(a)   
