@@ -1,6 +1,7 @@
-a,b=map(int,input().split())
-for i in range(1,a+1):
-    if a%i==0 and b%i==0:
-            gcd=i
-print(gcd)
-        
+n,m=map(int,input().split())
+while n!=0  and m!=0:
+    if n>m:
+        n%=m
+    else:
+        m%=n
+print(n) if m==0 else print(m)
