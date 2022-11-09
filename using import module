@@ -1,0 +1,6 @@
+%%python
+from math import factorial as fc,gcd as gc,lcm as lc,sqrt as sq
+print(fc(5))
+print(lc(2,5))
+print(gc(5,9))
+print(sq(3))
