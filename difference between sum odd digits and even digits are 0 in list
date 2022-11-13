@@ -1,0 +1,14 @@
+#difference between sum odd digits and even digits are 0
+n=int(input())
+lst=list(map(int,input().split()))
+ev=0
+od=0
+for i in range(len(lst)):
+    if i%2==0:
+        ev+=lst[i]
+    else:
+        od+=lst[i]
+if ev==od:
+    print('YES')
+else:
+    print('NO')
