@@ -1,3 +1,6 @@
-s=input()
-x=s[::-1]
-print(x)
+string=input()
+s= string.split()[::-1]
+l = []
+for i in s:
+    l.append(i)
+print(" ".join(l))
